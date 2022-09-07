@@ -1,0 +1,8 @@
+[submodule "config"]
+	path = config
+	url = git@github.com:mystere1337/config.git
+	update = merge
+[submodule "system"]
+	path = system
+	url = git@github.com:mystere1337/system.git
+	update = merge
