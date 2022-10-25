@@ -43,6 +43,11 @@ int main() {
     bunny_hop.request_stop();
     trigger_bot.request_stop();
     visuals.request_stop();
+    
+    delete overlay;
+    delete csgo;
+    delete config;
+    delete input;
 
     return 0;
 }
